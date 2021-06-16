@@ -1,0 +1,206 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,hgroup,
+ul,ol,dd,
+p,figure,
+pre,table,fieldset,hr,.content,head,about {
+    margin-bottom: 1rem;
+}
+
+.profile-card {
+  background: hsla(60, 100%, 50%, .4);
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(26%, 95%) 10px 10px 80px;
+}
+
+@media (min-width: 1024px) {
+    
+    .profile-card {
+    max-width: calc(100vw - 10px);
+    }
+}
+
+/*.head {
+  background-color: green;
+} */
+
+/*.content {
+  background-color: green;
+} */
+
+/*.profile-image {
+  background-color: purple;
+} */
+
+/*.name-headline {
+  background-color: purple;
+} */
+
+/*.about {
+  background-color: purple;
+} */
+
+/* .links {
+  background-color: purple;
+} */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  background: url('../Fakitermelo/assets/fa_4.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.25rem;
+  color:rgba(57,58,44,1.00)
+}
+
+@media (min-width: 1024px) {
+
+	body {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.25rem;
+        color:rgba(57,58,44,1.00)
+	}
+    .head, .links {
+        text-align: center;
+    }
+    .head, .content {
+        width: 95%;
+        margin: 0 auto;
+}
+
+
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+  opacity: 0.4;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img {
+  padding: 0.0625rem;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+
+.fa:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+p {
+  line-height: 1.875rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.875rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+h3 {
+  text-shadow: 5px 5px 15px;
+}
+
+.name-headline {
+  line-height: 1.875rem;
+  font-family: 'Mate SC', serif;
+  color: rgba(60,43,42,1.00)
+}
+
+.links {
+  line-height: 3.125rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
