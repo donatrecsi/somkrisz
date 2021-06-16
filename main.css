@@ -82,7 +82,7 @@ body {
     .head, .content {
         width: 95%;
         margin: 0 auto;
-}
+    }
 
 
 }
@@ -152,7 +152,10 @@ h2 {
 }
 
 h3 {
-  text-shadow: 5px 5px 15px;
+  font-size: 1.875rem;
+  border: 1px solid grey;
+  border-radius: 9999px;
+  font-family: 'Mate SC', serif;
 }
 
 .name-headline {
