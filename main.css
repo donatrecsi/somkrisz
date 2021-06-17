@@ -61,7 +61,7 @@ body {
   height: 120vh;
   background: url('../somkrisz/assets/fa_4.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family:'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   color: rgba(57,58,44,1.00)
 }
@@ -167,9 +167,9 @@ h3 {
 nav, .one {
     text-decoration: none;
     color: rgba(57,58,44,1.00);
-    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-family:'Poppins', sans-serif;
     font-size: 1.55rem;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.20rem;
     line-height: 2.125rem;
 }
 
@@ -214,6 +214,7 @@ footer small {
   color: #c74f78;
   margin: 0.5rem;
   display: inline-block;
+    font-size: 1rem;
 } 
  
  
